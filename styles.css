@@ -1,0 +1,160 @@
+body
+{
+    background-color: rgb(91, 87, 242);
+}
+
+.text
+{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.content
+{
+    width: 90%;
+    height: 75%;
+    border: 1px solid white;
+    border-radius: 15px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: white;
+}
+h1
+{
+    color: white;
+    font-family: monospace;
+}
+
+.p1
+{
+    font-weight: bold;
+    font-family: monospace;
+    font-size: large;
+    color: rgb(192, 190, 250);
+}
+h2
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.links
+{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 8px;
+    box-shadow: 0px 5px 18px -10px;
+    text-align: center;
+}
+
+
+.links .a1
+{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(81, 202, 163);
+    border: 1px solid rgb(81, 202, 163);
+    border-radius: 20px;
+    padding: 10px;
+    font-family: monospace;
+    display: inline-block;
+    width: 80px;
+}
+
+.links .a2
+{
+    text-decoration: none;
+    color: green;
+    background-color: rgb(231, 251, 244);
+    border: 1px solid rgb(231, 251, 244);
+    border-radius: 20px;
+    padding: 10px;
+    font-family: monospace;
+    display: inline-block;
+    width: 80px;
+}
+
+.basic
+{
+    text-align: center;
+    width: 20%;
+    height: 68%;
+    border: 1px solid white;
+    border-radius: 30px;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    transform: translate(-50%);
+    background-color: white;
+    box-shadow: 0px 5px 18px -10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.premium
+{
+    text-align: center;
+    width: 20%;
+    height: 68%;
+    border: 1px solid white;
+    border-radius: 30px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: white;
+    box-shadow: 0px 5px 18px -10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.business
+{
+    text-align: center;
+    width: 20%;
+    height: 68%;
+    border: 1px solid white;
+    border-radius: 30px;
+    position: absolute;
+    top: 25%;
+    left: 80%;
+    transform: translate(-50%);
+    background-color: white;
+    box-shadow: 0px 5px 18px -10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.btn1,
+.btn2,
+.btn3
+{
+    background-color: rgb(38, 194, 129);
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 200px;
+    color: white;
+    outline: none;
+}
+
+
+#i1,
+#i2,
+#i3
+{
+    font-size: 30px;
+    color: white;
+    border-radius: 50%;
+    background-color: rgb(38, 194, 129);
+    padding: 6px;
+}
